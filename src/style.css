@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,100;1,600&family=Raleway:ital,wght@0,200;1,100;1,200&display=swap');
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Montserrat", sans-serif;
+}
+body {
+  background: #ad5389;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+::-webkit-scrollbar-track {
+    background: #480e63; 
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 100px;
+    background:  #480e63;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #e66224;
+    height: 350px;
+    border-radius: 5px;
+  }
+  #link-topo {
+        
+    background: #05b42b;
+    cursor: pointer;
+    color: #fff;
+    border-radius: .3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.5rem;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: fixed;
+    right: 2rem;
+    bottom: 4rem;
+    width: 3rem;
+    height: 3rem;
+    -webkit-box-shadow: 0 0.1rem 0.6rem #00000009;
+    box-shadow: 0 0.1rem 0.6rem #00000009;
+    transition: 2s;
+}
+#link-topo:hover {
+  color: #ffffff;
+  background: #08611b; 
+}
